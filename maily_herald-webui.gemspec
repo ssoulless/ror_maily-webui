@@ -7,11 +7,11 @@ require "maily_herald/webui/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "maily_herald-webui"
+  s.name        = "ror_maily-webui"
   s.version     = MailyHerald::Webui::VERSION
-  s.authors     = ["Łukasz Jachymczyk"]
-  s.email       = ["lukasz@sology.eu"]
-  s.homepage    = "https://github.com/Sology/maily_herald-webui"
+  s.authors     = ["Sebastian Velandia"]
+  s.email       = ["sebas.velandia27@gmail.com"]
+  s.homepage    = "https://github.com/ssoulless/ror_maily-webui"
   s.license     = "LGPL-3.0"
   s.description = s.summary = "Web UI for MailyHerald - Email processing solution for Ruby on Rails applications"
 
@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.executables   = s.files.grep(%r{^bin/}) { |f| File.basename(f) }
   s.test_files   = `git ls-files -- {spec,features}/**/`.split("\n")
 
-	s.add_dependency 'maily_herald', "~>0.9.2"
+	s.add_dependency 'ror_maily', "~>0.0.1"
 	s.add_dependency "smart_listing", "~>1.1.0"
 	s.add_dependency "haml"
 	s.add_dependency "coffee-rails"
