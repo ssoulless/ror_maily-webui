@@ -10,7 +10,7 @@
       .hero
         .row
           .col-sm-3.text-center
-            %h1= link_to image_tag("maily_herald/webui/logo.svg", :class => "img-responsive logo"), root_path
+            %h1= RoRmaily demo, :class => "img-responsive logo"), root_path
           .col-sm-6= render_breadcrumbs
           .col-sm-3
             .dropdown.pull-right.dropdown-settings
@@ -30,13 +30,13 @@
       .footer 
         .pull-right
           = t(".created_by")
-          = link_to "Sology", "http://www.sology.eu"
+          = link_to "Rails Karate - S. Velandia", "http://www.railskarate.com"
         %div
           %span
-            %strong= link_to "MailyHerald", "https://github.com/Sology/maily_herald"
+            %strong= link_to "RoRmaily", "https://github.com/ssoulless/RoRmaily"
             = "v#{::MailyHerald::VERSION}"
           %span
-            %strong= link_to "WebUI", "https://github.com/Sology/maily_herald-webui"
+            %strong= link_to "WebUI", "https://github.com/ssoulless/ror_maily-webui"
             = "v#{::MailyHerald::Webui::VERSION}"
           %span
             %strong Redis:
