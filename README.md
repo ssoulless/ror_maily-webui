@@ -1,6 +1,6 @@
-# MailyHerald Web UI
+# RoRmaily Web UI
 
-Web interface for [MailyHerald](https://github.com/Sology/maily_herald) - Ruby on Rails email marketing solution.
+Web interface for [RoRmaily](https://github.com/ssoulless/RoRmaily) - Ruby on Rails email marketing solution.
 
 ## Requirements
 
@@ -76,13 +76,18 @@ end
 
 ## More Information
 
-* [Home Page](http://mailyherald.org)
-* [API Docs](http://www.rubydoc.info/gems/maily_herald)
-* [Showcase](http://showcase.sology.eu/maily_herald)
-* [Sample application](https://github.com/Sology/maily_testapp)
+* [API Docs](http://www.rubydoc.info/github/ssoulless/RoRmaily)
+* [Sample application](https://github.com/ssoulless/ror_maily_testapp)
 
-For bug reports or feature requests see the [issues on Github](https://github.com/Sology/maily_herald-webui/issues).  
+For bug reports or feature requests see the [issues on Github](https://github.com/ssoulless/ror_maily-webui/issues).  
 
 ## License
 
-LGPLv3 License. Copyright 2013-2015 Sology. http://www.sology.eu
+LGPLv3 License. Copyright 2015
+
+Initial development sponsored by University of Quindio (http://uniquindio.edu.co)
+
+## Credits
+
+* Based and inspired in [MailyHerald](https://github.com/Sology/maily_herald). Seeking to merge RoRmaily features with MailyHerald in a near future.
+* Documentation Structure based on [Sharetribe](https://github.com/sharetribe/sharetribe) Docs templates.
