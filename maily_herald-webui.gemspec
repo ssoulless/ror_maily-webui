@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.executables   = s.files.grep(%r{^bin/}) { |f| File.basename(f) }
   s.test_files   = `git ls-files -- {spec,features}/**/`.split("\n")
 
-	s.add_dependency 'ror_maily', "~>0.0.1"
+	s.add_dependency 'ror_maily', "~>0.8.0"
 	s.add_dependency "smart_listing", "~>1.1.0"
 	s.add_dependency "haml"
 	s.add_dependency "coffee-rails"
